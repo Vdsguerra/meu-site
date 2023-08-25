@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 93.75%; /* 15px */
+}
+
+body {
+  background-color: rgb(0, 162, 255);
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adiciona sombra suave aos botões */
+}
+
+button#btnYes {
+  background-color: red;
+  color: white;
+}
+
+button#btnNo {
+  background-color: green;
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+  margin-top: 20vh; /* Ajuste o valor conforme necessário */
+}
+
+#pedido label {
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adiciona sombra suave ao texto */
+}

@@ -1,0 +1,29 @@
+<html>
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <script type="text/javascript">
+      function no() {
+        alert("Obrigado, Senhora!!");
+      }
+
+      function motionMouse() {
+        var btnYes = document.getElementById("btnYes");
+        btnYes.style.position = "absolute";
+        btnYes.style.left = Math.random() * 500 + "px";
+        btnYes.style.top = Math.random() * 500 + "px";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="pedido" class="center-text">
+      <label>Me ajuda a conquistar a sua amiga?</label><br />
+      <button id="btnYes">NÃO</button>
+      <button id="btnNo" onclick="no()">SIM</button>
+    </div>
+
+    <script type="text/javascript">
+      var btnYes = document.getElementById("btnYes");
+      btnYes.addEventListener("mouseover", motionMouse);
+    </script>
+  </body>
+</html>
